@@ -4,15 +4,15 @@ int main(){
     
     // r= raio
     // a= area
-    // p= pi
+    // pi
     
-    double raio;
-    double area;
+    double r;
+    double a;
     double pi=3.14159;
     
-    scanf ("%lf", &raio);
-    area = pi * (raio *raio);
-    printf ("A=%.4lf\n",area);
+    scanf ("%lf", &r);
+    a = pi * (r *r);
+    printf ("A=%.4lf\n",a);
 
     return 0;
 }
